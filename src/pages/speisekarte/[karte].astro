@@ -1,0 +1,56 @@
+---
+export const prerender = true;
+
+import Layout from '../../layouts/Layout.astro';
+import Item from '@components/Speisekarte/Item.astro';
+
+import {
+	getSpeisekarteSlugs,
+	getSpeisekarteSlugsForNavigation,
+} from '@utils/getSpeiskarteSlugs';
+import Section from '@components/Speisekarte/Section.astro';
+
+import { getSpeisekarteInformations } from '@utils/_getSpeisekarteInformations';
+import SmallMenu from '@components/Speisekarte/SmallMenu.svelte';
+import Header from '@components/Speisekarte/Header.astro';
+
+export function getStaticPaths() {
+	const paths = getSpeisekarteSlugs();
+
+	return paths.map((path) => {
+		return { params: { karte: path } };
+	});
+}
+
+const { karte } = Astro.params;
+
+if (!karte) {
+	return;
+}
+const { results, site_md, kat_md_files } = await getSpeisekarteInformations(
+	karte
+);
+
+const slugs = await getSpeisekarteSlugsForNavigation();
+
+//group results by kategorie
+---
+
+<Layout title={site_md.data.seo_title} description={site_md.data.seo_desc}>
+	<Header title={site_md.data.seo_title} />
+	<SmallMenu client:idle menu={slugs} basePath="speisekarte" />
+	<div class="bg-base text-center py-8">
+		<h2 class="mb-0">
+			{site_md.data.title}
+		</h2>
+	</div>
+	{
+		kat_md_files.map((item) => (
+			<Section markdown_file={item} wrapper={'article'}>
+				{results[item.data.kategorie]?.map((item) => (
+					<Item {...item} />
+				))}
+			</Section>
+		))
+	}
+</Layout>

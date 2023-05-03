@@ -1,0 +1,60 @@
+---
+export const prerender = true;
+
+import Header from '@components/Speisekarte/Header.astro';
+import Item from '@components/Speisekarte/Item.astro';
+import Section from '@components/Speisekarte/Section.astro';
+import SmallMenu from '@components/Speisekarte/SmallMenu.svelte';
+import ToC from '@components/Speisekarte/ToC.svelte';
+import { getAllSpeisekarteInformations } from '@utils/_getSpeisekarteInformations';
+import { getSpeisekarteSlugsForNavigation } from '@utils/getSpeiskarteSlugs';
+import Layout from 'src/layouts/Layout.astro';
+
+const speisekarten_informations = await getAllSpeisekarteInformations();
+if (!speisekarten_informations || !speisekarten_informations.length) {
+	return;
+}
+
+const slugs = await getSpeisekarteSlugsForNavigation();
+
+const seo_description =
+	'Entdecken Sie die kulinarische Vielfalt der Osteria Ballerino in Stahnsdorf! Unsere umfangreiche Speisekarte bietet Ihnen eine reichhaltige Auswahl an italienischen Köstlichkeiten, darunter Antipasti, Pasta, Pizza, Fisch- und Fleischgerichte sowie erlesene Desserts. Dazu kommen erfrischende alkoholfreie und alkoholische Getränke sowie eine umfangreiche Weinkarte mit erlesenen Tropfen aus Italien. Besuchen Sie uns und lassen Sie sich von unserem freundlichen Service-Team verwöhnen!';
+---
+
+<Layout title="Speisekarte" description={seo_description}>
+	<Header title="Übersicht" />
+	<SmallMenu client:idle menu={slugs} basePath="speisekarte" />
+	<div>
+		{
+			speisekarten_informations.map(async (speisekarte_information) => {
+				const { results, kat_md_files, site_md } = speisekarte_information;
+				const { Content } = await site_md.render();
+				return (
+					<>
+						<article
+							id={site_md.slug}
+							class="border-t border-primary py-4 text-center first:border-t-0 ">
+							<div class="text-center w-fit mx-auto">
+								<a href={`/speisekarte/${site_md.slug}`}>
+									<h2>{site_md.data.title}</h2>
+								</a>
+								<div class="">
+									<Content />
+								</div>
+							</div>
+							{/* Return site_md.data.title here */}
+							{kat_md_files.map((item) => (
+								<Section markdown_file={item} heading_level={3} wrapper={'div'}>
+									{results[item.data.kategorie]?.map((item) => (
+										<Item {...item} />
+									))}
+								</Section>
+							))}
+						</article>
+					</>
+				);
+			})
+		}
+	</div>
+	<ToC />
+</Layout>
