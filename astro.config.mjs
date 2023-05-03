@@ -14,5 +14,11 @@ export default defineConfig({
       ],
        experimental: {
             assets: true
-      }
+      },
+       
+  vite: {
+    build: {
+      minify: false
+    }
+  }
 });
