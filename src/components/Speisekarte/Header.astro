@@ -1,7 +1,7 @@
 ---
 import speisekarte_header from '@assets/speisekarte.jpg';
 import ShapeDividerWave from '@components/ShapeDividerWave.astro';
-import { Image } from 'astro:assets';
+
 interface Props {
 	title?: string;
 }
@@ -10,8 +10,7 @@ const { title = null } = Astro.props;
 ---
 
 <section
-	class="relative min-h-[30vh] flex after:absolute after:inset-0 after:bg-gradient-to-t after:from-black/40 after:to-transparent after:-z-10"
->
+	class="relative min-h-[30vh] flex after:absolute after:inset-0 after:bg-gradient-to-t after:from-black/40 after:to-transparent after:-z-10">
 	<div class="m-auto text-center">
 		<h1 class="text-white">Speisekarte</h1>
 		{
@@ -23,15 +22,17 @@ const { title = null } = Astro.props;
 		}
 		<p class="font-display text-3xl text-tertiary my-4">buon appetito!</p>
 		<div class="text-xl">
-			<a href="tel:03329-698-5150" class="text-white before:content-['Telefon:_']"
+			<a
+				href="tel:03329-698-5150"
+				class="text-white before:content-['Telefon:_']"
 				>03329-698-5150
 			</a>
 		</div>
 	</div>
 	<div class="absolute inset-0 -z-10 h-full">
-		<Image
+		<img
 			src={speisekarte_header}
-			alt=""
+			alt="s"
 			class="object-cover h-full"
 			loading={'eager'}
 		/>

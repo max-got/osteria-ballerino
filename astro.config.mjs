@@ -12,13 +12,4 @@ export default defineConfig({
             tailwind({ config: { applyBaseStyles: false } }),
             svelte()
       ],
-       experimental: {
-            assets: true
-      },
-       
-  vite: {
-    build: {
-      minify: false
-    }
-  }
 });
