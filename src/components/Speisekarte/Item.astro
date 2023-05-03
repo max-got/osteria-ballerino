@@ -1,0 +1,65 @@
+---
+import type { Speisekarte } from '../../utils/parseSpeisekarte';
+
+type Props = Speisekarte;
+
+const { nummer, beschreibung, name, preis } = Astro.props;
+
+const hash_link = `speise-${encodeURIComponent(nummer)}`;
+---
+
+<script>
+	function highlightElement(hash: string) {
+		const element = document.getElementById(`${hash.slice(1)}`);
+		if (element) {
+			element.classList.add('bg-tertiary/30');
+			setTimeout(() => {
+				element.classList.remove('bg-tertiary/30');
+			}, 3000);
+		}
+	}
+
+	highlightElement(window.location.hash);
+
+	window.addEventListener('hashchange', () => {
+		highlightElement(window.location.hash);
+	});
+</script>
+
+<div
+	id={hash_link}
+	class="flex flex-col py-3 w-full justify-between transition-colors"
+>
+	<div class="flex w-full justify-between">
+		<a
+			href={nummer ? `#${hash_link}` : '#'}
+			aria-label={`Zu Speise #${nummer} springen`}
+			class="flex items-center relative before:content-['#'] before:text-2xl before:text-primary before:absolute before:left-[-1rem] before:opacity-0 hover:before:opacity-100 before:transition-opacity"
+		>
+			{
+				nummer && (
+					<>
+						<span class="font-bold after:content-['-']  after:mr-1 after:font-normal">
+							{nummer}
+						</span>
+					</>
+				)
+			}
+			<p class="text-lg font-sans">
+				{name}
+			</p>
+		</a>
+		{
+			preis && (
+				<>
+					<div class="flex-[0.9] bg-black/30 m-auto h-[1px]" />
+					<p class="text-right font-bold whitespace-nowrap">{preis}€</p>
+				</>
+			)
+		}
+	</div>
+
+	<div class="text-left">
+		{beschreibung?.trim() && <p set:html={beschreibung} />}
+	</div>
+</div>
