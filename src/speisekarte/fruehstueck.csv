@@ -1,0 +1,24 @@
+﻿Nummer;Name;Beschreibung;Preis;Kategorie
+01;Natur;wahlweise mit Bacon (9,50€);7,50;Eiergerichte
+02;Schafkäse, Tomaten, Frühlingszwiebeln;;10,50;Eiergerichte
+03;Chorizo und frische Tomaten;;10,50;Eiergerichte
+04;Bauernfrühstück;Omelette mit Kartoffeln und Kochschinken;10,50;Eiergerichte
+10;Joghurt mit frischem Obst;;8,50;Frühstück
+11;Bircher Müsli;Haferflocken, Äpfel, Bananen, Rosinen und getrocknete Mango eingelegt in Milch. Getoppt mit Mangopürree und frischen Früchten.;9,90;Frühstück
+12;süßes Frühstück;Croissant & Ofenbrötchen mit fruchtiger Marmelade, cremigem Honig, Butter und frischem Obst;8,50;Frühstück
+13;kleines Frühstück;Fontina Käse , Salami, Marmelade, gek. Ei, frisches Obst, Butter, Brotkorb;9,90;Frühstück
+14;Ballerinofrühstück;Variation aus italienischem Käse (Taleggio und Fontina), Kräuterfrischkäse, Salami, Lachs, Kochschinken, Rührei, Marmelade, frisches Obst, Butter, Brotkorb. (Wahlweise für 2 Personen - 28,50€);16,00;Frühstück
+15;Käsefrühstück;"Variation aus italienischem Käse (Taleggio, Gorgonzola, Fontina), dazu ein Chutney; Tomate- Mozzarella, Kräuterfrischkäse, Gurken, Oliven, Walnüsse, gek. Ei, Marmelade, Butter, frisches Obst, Brotkorb";15,50;Frühstück
+16;italienisches Frühstück;Parmaschinken mit Melone, Salami, Kochschinken, Tomate-Mozzarella, Gorgonzola, Oliven, getrocknete Tomaten, Butter, frisches Obst und Brotkorb;15,50;Frühstück
+17;Lachsfrühstück;mit norwegischem Lachsfilet, Meerrettich, gek. Ei, Orangen- und Zitronenscheiben, Butter, Brotkorb;15,90;Frühstück
+18;Frühstück des Monats;siehe Wochenkarte;;Frühstück
+;Gekochtes Ei/Spiegelei;;2,50;Extras zum Frühstück
+;Bacon;;3,80;Extras zum Frühstück
+;Aufschnitt, Käse;;4,50;Extras zum Frühstück
+;Räucherlachs;;5,50;Extras zum Frühstück
+;Butter;;1,50;Extras zum Frühstück
+;Marmelade/Nutella/Honig;;3,30;Extras zum Frühstück
+;Croissant;;3,20;Extras zum Frühstück
+;Brotkorb;;4,00;Extras zum Frühstück
+;Helles Brötchen;;1,20;Extras zum Frühstück
+;Körnerbröchten;;1,80;Extras zum Frühstück

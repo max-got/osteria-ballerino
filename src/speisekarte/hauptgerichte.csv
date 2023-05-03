@@ -1,0 +1,43 @@
+Nummer;Name;Beschreibung;Preis;Kategorie
+50;Spaghetti Aglio E Olio (pikant);Spaghetti mit Knoblauch, Olivenöl, Peperoni;10,50;Pasta
+51;Spaghetti Bolognese;Spaghetti mit Rindfleischsauce;13,50;Pasta
+52;Spaghetti alla Carbonara;Spaghetti mit Schinken, Sahne, Ei;13,50;Pasta
+53;Spaghetti Scampi;Spaghetti mit Scampi, Chili, Knoblauch und Kirschtomaten in leichter Tomatensauce;17,90;Pasta
+54;Penne All Arabiatta (pikant);Kurze Nudel mit Knoblauch, Peperoni, Oliven, in Tomatensauce;12,90;Pasta
+55;Penne Pollo;Kurze Nudeln mit Hähnchenbruststreifen und Champignon in Sahnesauce;15,50;Pasta
+56;Spaghetti Genovese;Penne Rigate mit hausgemachtem Basilikumpesto und Kirschtomaten;13,50;Pasta
+57;Tagliatelle Salmone;Breitbandnudeln mit Lachsfilet, frischem Spinat in Sahnesauce;17,90;Pasta
+58;Tagliatelle Vegetaria (vegetarisch);Breitbandnudeln mit gegriltem Gemüse, getrockneten Tomaten, Knoblauch, Oliven, in Olivenöl und gehobelter Schafskäse;13,50;Pasta
+59;Tagliatelle Ballerino;Breitbandnudeln mit Rinderfiletspitzen, Gemüse, Knoblauch und Sahnesauce;16,90;Pasta
+60;Tagliatelle Frutti Di Mare;Breitbandnudeln mit Scampi, Calamari, Sepia und Pulpo, mit Knoblauch in leichter Tomatensauce;18,50;Pasta
+61;Lasagne al Forno;Schichtbandnudeln mit Rindfleischsauce im Ofen mit Käse überbacken;13,50;Pasta
+65;Nurejew;mit Tomatensauce, Käse und Kräutern;9,90;Pizza
+66;Nijinsky;mit frischen Champignon, Oliven, Peperoni, Paprika, Zwiebeln;11,90;Pizza
+67;Baryshnikow;mit Thunfisch und Zwiebeln;12,90;Pizza
+68;Fonteyn;mit italienischer Salami;12,90;Pizza
+69;Bortoluzzi;mit Sardellen, Kapern, Oliven, getrockneten Tomaten;13,50;Pizza
+70;Maximova;mit Salami, Schinken, Champignons, Peperoni;13,50;Pizza
+71;Fracci;mit gegrilltem Gemüse, Oliven, getrockneten Tomaten und Schafskäse;14,50;Pizza
+72;Taglioni;mit 4 verschiedenen Käsesorten;14,50;Pizza
+73;Pavlova;frische Tomatenscheiben, Büffelmozzarella und Basilikum;16,50;Pizza
+74;Ballerino;mit frischem Lachs, Kräuterquark und frischem Spinat;17,50;Pizza
+75;Evdokimova;mit Parmaschinken, Rucola und gehobeltem Parmesankäse;17,50;Pizza
+76;Vasiliev;mit Scampi, Kirschtomaten, Knoblauch, Chili;17,50;Pizza
+77;Plissezkaja;mit Meeresfrüchten: Scampi, Sepia, Calamarie, Pulpo und Knoblauch;17,50;Pizza
+80;Entrecote di Manzo;argentinisches Rinder-Entrecote mit Rosmarinkartoffeln, gegrilltem Gemüse und Salatbeilage;27,00;Fleischgerichte
+81;Costolette d´Agnello alla Griglia;3 sautierte Lammchops mit Rosmarinkartoffeln, breiten Bohnen und Salatbeilage;27,00;Fleischgerichte
+82;Filetto alla Griglia (200 gr.);argentinisches Rinderfilet vom Grill mit Rosmarinkartoffeln, breiten Bohnen und Salatbeilage;32,50;Fleischgerichte
+83;Grigliata Mista;gemischte Grillplatte mit Lammkotelett, Hähnchenbrustfilet, Rinder-Entrecôte, gegrilltes Gemüse, Rosmarinkartoffeln und Salatbeilage;36,50;Fleischgerichte
+;Sauce Nach Wahl:;Champignonsauce / Grünpfeffersauce / Pommery Senfsauce;3,00;Fleischgerichte
+;Kräuterbutter Extra;;2,50;Fleischgerichte
+90;Pollo alla Griglia;Hähnchenbrustfilet mit gegrilltem Gemüse, Rosmarinkartoffeln und Salatbeilage;17,90;Hähnchengerichte
+91;Ivoltini di Pollo;gefüllte Hähnchenroulade mit Parmaschinken und getrockneten Tomaten, dazu Rosmarinkartoffeln, dazu gegrilltes Gemüse und Salatbeilage;18,90;Hähnchengerichte
+;Sauce Nach Wahl:;Champignonsauce / Grünpfeffersauce / Pommery Senfsauce​;3,00;Hähnchengerichte
+;Kräuterbutter Extra;;2,50;Hähnchengerichte
+95;Salmone alla Griglia;frisches Lachsfilet mit frischem Spinat, Salzkartoffeln und Salat;23,50;Fischgerichte
+96;Scampi alla Griglia 2;3 Riesengambas mit Knoblauch, dazu Spaghetti, mit Kirschtomaten und Knoblauch in pikanter Tomatensauce, dazu Salat;24,50;Fischgerichte
+97;Scampi Alla Griglia;3 Riesengambas mit Gemüse, Rosmarinkartoffeln und Salatbeilage;24,50;Fischgerichte
+98;Dorade alla Griglia;frische Dorade mit frischem Spinat, Butterkartoffeln und Salatbeilage;23,00;Fischgerichte
+99;Piatto misti di Pesce;Gemischte Fischplatte mit Scampisspießen, Lachs und Fischfilet, dazu gegrilltes Gemüse, Butterkartoffeln und Salatbeilage;34,50;Fischgerichte
+;;;;
+;;;;

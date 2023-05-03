@@ -1,0 +1,64 @@
+Nummer;Name;Beschreibung;Preis;Kategorie
+200;Ouzo;2 cl;3,90;Aperitifs
+201;Pernod serviert mit stillem Wasser;"2 cl, serviert mit stillem Wasser ";3,90;Aperitifs
+202;Martini Bianco;5 cl;5,50;Aperitifs
+203;Campari;4 cl;3,90;Aperitifs
+204;Campari Orangensaft;4 cl;7,50;Aperitifs
+205;Campari Soda;4 cl;7,50;Aperitifs
+206;Sherry Medium;5 cl;5,50;Aperitifs
+207;Hugo;0,2 l;8,50;Aperitifs
+208;Aperol Spritz;0,2 l;8,50;Aperitifs
+209;Gin Tonic;2 cl;9,50;Aperitifs
+210;Rum Cola;2 cl;9,50;Aperitifs
+211;Whisky Cola;2 cl;9,50;Aperitifs
+212;Wodka Lemon;2 cl;9,50;Aperitifs
+220;Wodka Absolut;40% vol.;3,90;Klare Schnäpse
+221;Malteser Kreuz Aquavit;40% vol.;3,90;Klare Schnäpse
+222;Bombay Saphire;40% vol.;3,90;Klare Schnäpse
+223;Tequila weiß;38% vol.;3,90;Klare Schnäpse
+224;Obstler;40% vol.;3,90;Klare Schnäpse
+225;Linie Aquavit;41,5% vol.;4,50;Klare Schnäpse
+226;Grappa di Chardonnay;40% vol.;4,90;Klare Schnäpse
+227;Bimba Distillato d´uva Grappa;40% vol.;5,50;Klare Schnäpse
+230;Botucal Reserva;40% vol.;6,50;Rum
+240;Birne Saubirne;43% vol.;5,90;Klare Edelbrände von Goelles
+241;Kriecherl Steirische Wildpflaume;43% vol.;5,90;Klare Edelbrände von Goelles
+242;Holler Holunder;43% vol.;6,90;Klare Edelbrände von Goelles
+243;Himbeer;43% vol.;7,90;Klare Edelbrände von Goelles
+250;Marille;17% vol.;5,90;Liköre von Goelles
+251;Kirsche;17% vol.;5,90;Liköre von Goelles
+260;Chateau Montifaud VS;40% vol.;5,50;Cognac
+261;Chateau Montifaud VSOP;40% vol.;6,50;Cognac
+262;Chateau Montifaud XO;40% vol.;10,50;Cognac
+263;Vecchia Romagna;38% vol.;4,20;Cognac
+270;Ballantines;40% vol.;5,50;Whisky
+271;Jack Daniels;40% vol.;5,50;Whisky
+272;Chivas Regal;40% vol.;5,90;Whisky
+273;Glenfiddich Malt;40% vol.;6,90;Whisky
+274;Johnnie Walker Blue Label;40% vol.;14,00;Whisky
+280;Jägermeister;35% vol.;4,20;Kräuterschnäpse
+281;Fernet Branca;40% vol.;4,20;Kräuterschnäpse
+282;Averna;29% vol.;4,50;Kräuterschnäpse
+283;Ramazotti;30% vol.;4,50;Kräuterschnäpse
+290;Amaretto;28% vol.;4,20;Liköre
+291;Bailey´s Irish Cream;17% vol.;4,20;Liköre
+292;Sambuca;40% vol.;4,20;Liköre
+293;Limoncello;35% vol.;4,20;Liköre
+390;Irish Coffee;Glas;6,50;heiße alkoholische Getränke
+391;Baileys Kaffee;Glas;6,50;heiße alkoholische Getränke
+392;"Kaffee Pharisäer ";Glas;6,50;heiße alkoholische Getränke
+393;Café au lait mit Amaretto;Schale;6,50;heiße alkoholische Getränke
+394;Heiße Schokolade mit Schuß;Glas, wahlweise mit 2cl Rum / Baileys / Eierlikör oder Wodka und Sahne;6,50;heiße alkoholische Getränke
+396;Glühwein saisonal;Glas;4,90;heiße alkoholische Getränke
+400;Waldhaus Diplom Pils;0,33 l / 0,5 l;4,30€ / 5,30;Waldhaus Bier
+401;Waldhaus Spezial Gold;0,5 l;5,30;Waldhaus Bier
+402;Waldhaus ohne Filter;0,33 l;4,30;Waldhaus Bier
+403;Waldhaus dunkel;0,33 l;4,30;Waldhaus Bier
+404;Waldhaus alkoholfrei;0,33 l;4,30;Waldhaus Bier
+405;Waldhaus Radler;Pils mit Sprite (0,33 l / 0,5 l);4,30€ / 5,30;Waldhaus Bier
+406;Waldahus Alster Pils;Pils mit Fanta (0,33 l / 0,5 l);4,30€ / 5,30;Waldhaus Bier
+407;Waldhaus Diesel Pils;Pils mit Cola (0,33 l / 0,5 l);4,30€ / 5,30;Waldhaus Bier
+410;Unertl Hefeweizen;0,5 l;5,30;Unertl Weißbier
+411;Unertl leicht;0,5 l;5,30;Unertl Weißbier
+412;Unertl alkholfrei;0,5 l;5,30;Unertl Weißbier
+450;Alpirsbacher Kristallweizen;0,5 l;5,30;Alpirsbacher Kristallweizen

@@ -16,11 +16,8 @@ const Wrapper = wrapper === 'article' ? 'article' : 'div';
 const { Content } = await markdown_file.render();
 ---
 
-<Wrapper
-	id={slugify(markdown_file.data.kategorie)}
-	class="odd:bg-white sec-lg w-full"
->
-	<div class="max-w-prose mx-auto">
+<Wrapper id={slugify(markdown_file.data.kategorie)} class="odd:bg-white w-full">
+	<div class="max-w-2xl mx-auto sec-sm">
 		<div class="text-center text-tertiary">
 			<HeadingLevel class="text-4xl">{markdown_file.data.title}</HeadingLevel>
 			<div class="text-black">

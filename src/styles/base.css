@@ -7,7 +7,7 @@
 		@apply scroll-smooth;
 	}
 	body {
-		@apply min-h-screen flex flex-col bg-base;
+		@apply min-h-screen flex flex-col bg-bg;
 	}
 
 	h1,
@@ -51,6 +51,10 @@
 
 	section {
 		@apply py-20 md:py-24 lg:py-32;
+	}
+
+	a {
+		@apply text-primary hover:text-primary-700 hover:underline;
 	}
 
 	p {
